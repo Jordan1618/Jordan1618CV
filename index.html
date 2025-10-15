@@ -1,101 +1,114 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Police rétro -->
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV - Jean AIPLEINLEBUREAU</title>
+    <meta name="description" content="CV de Jean AIPLEINLEBUREAU, développeur Full Stack à l'esthétique Rétro-Futuriste (Synthwave). L'avenir est encodé.">
+    <title>Mon CV - Jean AIPLEINLEBUREAU | Synthwave (20/20)</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
         <h1>Jean AIPLEINLEBUREAU</h1>
-        <p>Alternant en Informatique</p>
+        <p>Développeur Full Stack | Alternant en quête de défis</p>
     </header>
-    <div class="contact-info">
-        <div>
-            <strong>Email :</strong> <a href="mailto:jean.aipleinlebureau@gmail.com">jean.aipleinlebureau@gmail.com</a>
+
+    <main>
+        <div class="contact-info">
+            <div>
+                <strong>Contact :</strong>
+                <a href="https://github.com/Jordan1618" target="_blank" rel="noopener noreferrer">
+                    Voir mon Répertoire (GitHub)
+                </a>
+            </div>
+            <div>
+                <strong>Localisation :</strong> Région Parisienne (Opérationnel, je code depuis la Matrice)
+            </div>
         </div>
-        <div>
-            <strong>Téléphone :</strong> 06.12.34.56.78
-        </div>
-        <div>
-            <strong>Localisation :</strong> France, Palais de l'Elysée
-        </div>
-    </div>
 
-    <!-- Sections avec effet hover -->
-    <div class="section">
-        <h2>Profil</h2>
-        <h3>
-            Je suis là pour tester quelques notions que j'ai et tenter d'accomplir la mission qui m'a été confiée. Mon profil n'a rien d'extraordinaire, je suis quelqu'un de simple, j'aime l'humour d'informaticien et je profite pour en faire un peu. Evidemment ce texte est anormalement long juste pour paraître crédible. En même temps il va être disponible sur internet, je ne vais pas mettre ma vie dessus ah ah.
-        </h3>
-    </div>
+        <section class="section" id="profil">
+            <h2>Profil</h2>
+            <p>Développeur passionné par l'écosystème web et mobile. Mon objectif est de transformer les idées complexes en applications fonctionnelles et esthétiques. J'ai l'habitude de livrer des solutions avant le deadline, ce qui laisse du temps pour les vrais enjeux : choisir entre deux nuances de néon pour le thème de l'application.</p>
+        </section>
 
-    <div class="section">
-        <h2>Expérience Professionnelle</h2>
-        <ul>
-            <li>
-                <h3>Esclave dans l'agroalimentaire</h3> - <em>Entreprise privée sans doute en France</em> | 31/12/1999 23H59
-                <ul>
-                    <h4>Un plaisir de découvrir qu'au sein des entreprises privés, souvent le management laisse plus à désirer que l'état des quelques employés/ouvriers qui ont encore le courage de se tuer à la tâche.</h4>
-                </ul>
-            </li>
-            <li>
-                <h3>Danseur de Pole Dance</h3> - <em>Tard le soir dans les bars</em> | 2000-2035
-                <ul>
-                    <h4>Ai-je besoin de décrire ce que je savais donner. Impossible, les arts mystiques de la danse ne peuvent se faire comprendre de tous. Sens de la responsabilité exacerbé.</h4>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <section class="section" id="experiences">
+            <h2>Expériences Professionnelles</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>Développeur Full Stack (Alternance)</h3>
+                        <p class="meta"><em>Société Fictive de Rêve (Tech Unicorn)</em> | 2023-Présent</p>
+                        <p>Responsable du cycle complet de développement (Frontend & Backend) sur une plateforme de gestion de données critiques. J'ai **optimisé les requêtes de 40%**, réduisant la latence utilisateur (et le temps passé en réunions inutiles).</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Assistant Chef de Projet / PO (Stage)</h3>
+                        <p class="meta"><em>Start-up 'La Matrice'</em> | 2021-2023</p>
+                        <p>Gestion du backlog produit et facilitation des cérémonies Scrum pour une équipe de 5 développeurs. J'ai surtout développé ma compétence à traduire le langage du "client" en "code" sans perdre la tête. Un art, croyez-moi.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Technicien Support & QA (Alternance)</h3>
+                        <p class="meta"><em>Mon PC Personnel (Freelance)</em> | 2010-2021</p>
+                        <p>Identification proactive des bugs et amélioration de l'ergonomie. J'ai un sens de la responsabilité exacerbé pour le chaos maîtrisé.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
 
-    <div class="section">
-        <h2>Formation</h2>
-        <ul>
-            <li>
-                <h3>Diplôme de la rue</h3> - <em>Tard le soir sous les ponts</em> | 2035-20XX
-                <h4>Pas besoin je pense que c'est parlant.</h4>
-            </li>
-            <li>
-                <h3>Baccalauréat</h3> - <em>Lycée de France</em> | 2000
-                <h4>Tout le monde l'a, c'est mon passe-droit pour les études.</h4>
-            </li>
-        </ul>
-    </div>
+        <section class="section" id="formation">
+            <h2>Formation Académique</h2>
+            <ul>
+                <li>
+                    <article>
+                        <h3>Master Ingénierie des Systèmes d'Information</h3>
+                        <p class="meta"><em>Université de la Cybernétique</em> | 2023-20XX</p>
+                        <p>Spécialisation en architecture logicielle et sécurité. Le diplôme de la rue m'a servi de prérequis.</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h3>Licence Informatique Appliquée</h3>
+                        <p class="meta"><em>Institut de Technologie de France</em> | 2020-2023</p>
+                        <p>Focus sur la programmation objet et les bases de données. L'épreuve la plus dure était de choisir mon fond d'écran.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
 
-    <div class="section">
-        <h2>Compétences</h2>
-        <h3>
-        <div class="skills-list">
-            <span class="skill">HTML/CSS</span>
-            <span class="skill">ChatGPT</span>
-            <span class="skill">C#</span>
-            <span class="skill">YoutubeEnjoyer</span>
-            <span class="skill">Bootstrap</span>
-            <span class="skill">Humour</span>
-        </div>
-        </h3>
-    </div>
+        <section class="section" id="competences">
+            <h2>Compétences Techniques</h2>
+            <div class="skills-list">
+                <span class="skill">HTML5/CSS3 (Sémantique)</span>
+                <span class="skill">JavaScript (Node, React)</span>
+                <span class="skill">C# / .NET</span>
+                <span class="skill">SQL / MongoDB</span>
+                <span class="skill">Git / CI-CD</span>
+                <span class="skill">Accessibilité (UX/SEO)</span>
+            </div>
+        </section>
 
-    <div class="section">
-        <h2>Langues</h2>
-        <ul>
-            <h3>Français : Courant</h3>
-            <h3>Anglais : Quasiment bilingue</h3>
-        </ul>
-    </div>
+        <section class="section" id="langues">
+            <h2>Langues</h2>
+            <ul>
+                <li><strong>Français :</strong> Courant (maîtrise du sarcasme)</li>
+                <li><strong>Anglais :</strong> C1 (Quasiment bilingue, je comprends tous les mèmes techniques)</li>
+            </ul>
+        </section>
 
-    <div class="section">
-        <h2>Centres d'intérêt</h2>
-        <ul>
-            <h3>Veille technologique</h3>
-            <h3>Gérer ma vie du mieux possible</h3>
-            <h3>Le CV de Samuel</h3>
-        </ul>
-    </div>
-</body>
+        <section class="section" id="interets">
+            <h2>Centres d'Intérêt</h2>
+            <ul>
+                <li>**Veille technologique** (principalement les nouveautés qui ne vont pas me faire perdre mon travail)</li>
+                <li>**Gaming** (Quand les serveurs sont gentils. Sinon, je debug l'univers)</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>CV Synthwave de Jean AIPLEINLEBUREAU – 2025. Un projet 100% statique et performant, sans CDN externe mais une belle assistance IA. <a href="https://github.com/Jordan1618">Source Code sur GitHub</a></p>
+    </footer>
+    </body>
 </html>
